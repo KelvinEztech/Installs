@@ -22,7 +22,9 @@ cd \Vision
 echo Copiando os arquivos para o concentrador.
 NcFTP\NcFTPPut -f Vision.cfg -d logs\Upgrade1.log \  \Vision\Release\Release.zip
 EZTelnet\EZTelnet -C Update.cmd -O logs\Update.log 
-echo Instalacao completa, tecla entra para continuar.
+echo Instalacao completa. 
+echo Reinicie o concentrdor e depois atualizie o firmware da EZIbr se houver. 
+echo tecla entra para continuar.
 exit 
 
 
